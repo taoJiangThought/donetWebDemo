@@ -13,7 +13,7 @@ namespace BookManageSystem.Data
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Book>().ToTable("Book");
+            modelBuilder.Entity<Book>().ToTable("book");
         }
     }
 }
