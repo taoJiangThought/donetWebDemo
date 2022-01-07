@@ -5,6 +5,7 @@
     &lt;TestId&gt;xUnit::A3E25CDA-F320-47A5-85E7-68849DB0996C::net5.0::UITestBookManageSystem.BookServiceTest.should_return_all_books_when_get_all_books&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A3E25CDA-F320-47A5-85E7-68849DB0996C::net5.0::UITestBookManageSystem.BookServiceTest.CannotSetupMethodWithInlineFuncArgument&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A3E25CDA-F320-47A5-85E7-68849DB0996C::net5.0::UITestBookManageSystem.BookServiceTest.should_return_books_when_get_all_books&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A3E25CDA-F320-47A5-85E7-68849DB0996C::net5.0::UITestBookManageSystem.BookServiceTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c8522277_002D0484_002D48c8_002D900b_002Df5bf1e1a7a6a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="should_return_all_books_when_get_all_books" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;

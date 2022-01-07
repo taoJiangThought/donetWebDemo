@@ -12,8 +12,8 @@ namespace BookManageSystem.Service
     public class BooksService 
     {
 
-        private BooksRespository _booksRespository;
-        public BooksService(BooksRespository booksRespository)
+        private IBooksRespository _booksRespository;
+        public BooksService(IBooksRespository booksRespository)
         {
             _booksRespository = booksRespository;
         }
@@ -22,7 +22,7 @@ namespace BookManageSystem.Service
             return _booksRespository.GetAllBooks();
         }
 
-        public Book GetBookById(int id)
+        public  Book GetBookById(int id)
         {
             return _booksRespository.GetBookById(id);
         }

@@ -9,7 +9,7 @@ namespace BookManageSystem.Data
         {
         }
 
-        public DbSet<Book> Books { get; set; }
+        public virtual DbSet<Book> Books { get; set; }
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

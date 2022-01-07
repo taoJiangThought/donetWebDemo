@@ -35,7 +35,7 @@ namespace BookManageSystem
                 options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddTransient<BooksService>();
-            services.AddTransient<BooksRespository>();
+            services.AddTransient<IBooksRespository,BooksRespository>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "BookManageSystem", Version = "v1"});

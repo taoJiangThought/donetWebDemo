@@ -6,7 +6,7 @@ using BookManageSystem.ViewModels;
 
 namespace BookManageSystem.Respository
 {
-    public class BooksRespository
+    public class BooksRespository : IBooksRespository
     {
         private BookContext _context;
         public BooksRespository(BookContext context)
@@ -19,20 +19,12 @@ namespace BookManageSystem.Respository
             return books.FindAll(n => n.IsDeleted == 0);
         }
 
-        public Book GetBookById(int id)
+        public  Book GetBookById(int id)
         {
             var _book = _context.Books.FirstOrDefault(n => n.Id == id && n.IsDeleted == 0);
             return _book;
         }
-
-        public List<Book> GetBookByCondition(SearchByConditionParameters conditionParameters)
-        {   
-            //TODO
-            var books = from s in _context.Books select s;
-            
-            
-            return null;
-        }
+        
 
         public void AddBook(BookParams book)
         {
@@ -79,10 +71,6 @@ namespace BookManageSystem.Respository
                 _context.SaveChanges();
             }
         }
-
-        public List<Book> GetBooksByCondition()
-        {
-            throw new System.NotImplementedException();
-        }
     }
+    
 }

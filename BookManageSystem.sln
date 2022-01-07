@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManageSystem", "BookManageSystem\BookManageSystem.csproj", "{6957B881-660E-49B6-9CC9-BEDE22E8CD7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITestBookManageSystem", "UITestBookManageSystem\UITestBookManageSystem.csproj", "{A3E25CDA-F320-47A5-85E7-68849DB0996C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{6957B881-660E-49B6-9CC9-BEDE22E8CD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6957B881-660E-49B6-9CC9-BEDE22E8CD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6957B881-660E-49B6-9CC9-BEDE22E8CD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E25CDA-F320-47A5-85E7-68849DB0996C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E25CDA-F320-47A5-85E7-68849DB0996C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E25CDA-F320-47A5-85E7-68849DB0996C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E25CDA-F320-47A5-85E7-68849DB0996C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
