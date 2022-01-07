@@ -15,28 +15,35 @@ namespace BookManageSystem.Controllers
         }
         
         
-        [HttpGet("get-all-books")]
+        [HttpGet("getAllBooks")]
         public IActionResult GetAllBooks()
         {
             var allBooks = _booksService.GetAllBooks();
             return Ok(allBooks);
         }
         
-        [HttpPost("add-book-with-authors")]
+        [HttpPost("getBooksByCondition")]
+        public IActionResult GetBooksByCondition([FromBody]SearchByConditionParameters searchByCondition)
+        {
+            var allBooks = _booksService.GetBooksByCondition(searchByCondition);
+            return Ok(allBooks);
+        }
+        
+        [HttpPost("addBook")]
         public IActionResult AddBook([FromBody]BookParams book)
         {
             _booksService.AddBook(book);
             return Ok();
         }
         
-        [HttpPut("update-book-by-id/{id}")]
+        [HttpPut("updateBookById/{id}")]
         public IActionResult UpdateBookById(int id, [FromBody]BookParams book)
         {
             var updatedBook = _booksService.UpdateBookById(id, book);
             return Ok(updatedBook);
         }
 
-        [HttpDelete("delete-book-by-id/{id}")]
+        [HttpDelete("deleteBookById/{id}")]
         public IActionResult DeleteBookById(int id)
         {
             _booksService.DeleteBookById(id);
