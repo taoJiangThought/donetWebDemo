@@ -8,7 +8,7 @@ using BookManageSystem.ViewModels;
 using Moq;
 using Xunit;
 
-namespace UITestBookManageSystem
+namespace BookManageSystemTest
 {
     public class BookServiceTest
     {

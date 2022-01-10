@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.TestHost;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace UITestBookManageSystem
+namespace BookManageSystemTest
 {
     public class BookControllerTest
     {
