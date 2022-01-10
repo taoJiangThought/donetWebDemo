@@ -8,8 +8,8 @@ namespace BookManageSystem.Controllers
     [ApiController]
     public class BooksController : Controller
     {
-        public BooksService _booksService;
-        public BooksController(BooksService booksService)
+        public IBooksService _booksService;
+        public BooksController(IBooksService booksService)
         {
             _booksService = booksService;
         }

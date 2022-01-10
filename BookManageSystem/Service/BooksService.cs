@@ -9,7 +9,7 @@ using PagedList;
 
 namespace BookManageSystem.Service
 {
-    public class BooksService 
+    public class BooksService : IBooksService
     {
 
         private IBooksRespository _booksRespository;
@@ -49,7 +49,7 @@ namespace BookManageSystem.Service
             var allBooks = _booksRespository.GetAllBooks();
             var page = searchByCondition.Page;
             var pageSize = searchByCondition.PageSize;
-            if (searchByCondition.GetType() != null)
+            if (searchByCondition.Title != null)
             {
                 allBooks = allBooks.FindAll(n => n.Title.Contains(searchByCondition.Title));
             }

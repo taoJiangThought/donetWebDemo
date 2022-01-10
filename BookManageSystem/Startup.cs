@@ -36,6 +36,7 @@ namespace BookManageSystem
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddTransient<BooksService>();
             services.AddTransient<IBooksRespository,BooksRespository>();
+            services.AddTransient<IBooksService,BooksService>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "BookManageSystem", Version = "v1"});
