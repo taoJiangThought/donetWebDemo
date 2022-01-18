@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+  bookmanagesystem:
+    build: 
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    depends_on: 
+      - postgresnet
+    links:
+      - postgresnet
+  postgresnet:
+    image: "postgres:latest"
+    environment:
+      POSTGRES_DB: bookManageSystem
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: 123456
+    ports:
+      - "5432:5432"
+      

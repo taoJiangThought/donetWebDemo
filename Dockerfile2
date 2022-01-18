@@ -1,0 +1,4 @@
+FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS runtime
+WORKDIR /app
+COPY ./BookManageSystem/bin/Debug/net5.0/publish/BookManageSystem.dll ./
+ENTRYPOINT ["dotnet", "BookManageSystem.dll"]

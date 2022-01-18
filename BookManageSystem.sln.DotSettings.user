@@ -1,15 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b030804e_002D99e8_002D422a_002Da3ca_002D3c9374a0a903/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="should_return_all_Books_when_get_all_books" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
+  &lt;Assembly Path="/Users/jiangtaotao/RiderProjects/BookManageSystem/BookManageSystem/bin/Debug/net5.0/BookManageSystem.dll" /&gt;
+  &lt;Assembly Path="/Users/jiangtaotao/RiderProjects/BookManageSystem/BookManageSystem/bin/Debug/net5.0/publish/BookManageSystem.dll" /&gt;
+  &lt;Assembly Path="/Users/jiangtaotao/RiderProjects/BookManageSystem/BookManageSystem/bin/Debug/net5.0/publish/Castle.Core.dll" /&gt;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4ddf7807_002Da9b8_002D4565_002Dbd90_002D2a9e19fab1d8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::A3E25CDA-F320-47A5-85E7-68849DB0996C::net5.0::UITestBookManageSystem.BookControllerTest.should_return_ok_when_get_all_books&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A3E25CDA-F320-47A5-85E7-68849DB0996C::net5.0::UITestBookManageSystem.BookServiceTest.should_return_all_books_when_get_all_books&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A3E25CDA-F320-47A5-85E7-68849DB0996C::net5.0::UITestBookManageSystem.BookServiceTest.CannotSetupMethodWithInlineFuncArgument&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A3E25CDA-F320-47A5-85E7-68849DB0996C::net5.0::UITestBookManageSystem.BookServiceTest.should_return_books_when_get_all_books&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A3E25CDA-F320-47A5-85E7-68849DB0996C::net5.0::UITestBookManageSystem.BookServiceTest&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c8522277_002D0484_002D48c8_002D900b_002Df5bf1e1a7a6a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="should_return_all_books_when_get_all_books" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::A3E25CDA-F320-47A5-85E7-68849DB0996C::net5.0::UITestBookManageSystem.BookControllerTest.should_return_all_books_when_get_all_books&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A3E25CDA-F320-47A5-85E7-68849DB0996C::net5.0::BookManageSystemTest.BookControllerTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A3E25CDA-F320-47A5-85E7-68849DB0996C::net5.0::BookManageSystemTest.BookServiceTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
